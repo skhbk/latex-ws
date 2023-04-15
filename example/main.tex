@@ -1,0 +1,27 @@
+\documentclass{jlreq}
+
+% Fundamental packages
+\usepackage{subfiles}
+\usepackage{biblatex}
+
+\addbibresource{example.bib}
+
+\title{題名}
+\author{著者}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+  これは概要です。
+\end{abstract}
+
+\subfile{subfile}
+
+\section{引用}
+これは引用の例です\cite{example}。
+
+\printbibliography[title=参考文献]
+
+\end{document}
